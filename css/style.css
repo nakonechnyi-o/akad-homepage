@@ -1,0 +1,137 @@
+.header {
+    position: relative;
+    height: 100vh;
+}
+.header::before {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%; height: 100%;
+    background-image: linear-gradient(rgba(255, 255, 255, .7), rgba(255, 255, 255, .7)), url(../img/back.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: grayscale(100%);
+    z-index: -1;
+}
+
+.container {
+    margin: auto;
+    max-width: 70%; ;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 40px;
+}
+
+.logo, .menu{
+    font-family: Montserrat;
+    width: 58px;
+    height: 14px;
+    color: #60606e;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 48px;
+}
+
+.creative {
+    width: 50%;
+    margin: auto;
+    margin-top: 255px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.top-h1 {
+    margin: auto;
+    color: #60606e;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: #7beec7;    
+    padding: 5px 20px 5px 20px;
+    margin-bottom: -35px;
+}
+
+.border {
+    border: 10px solid #60606e;
+    width: 100%;
+    padding: 10px 0px ;
+}
+
+h1 {
+    color: #60606e;
+    font-family: Montserrat;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: center;
+    text-transform: uppercase;    
+}
+
+.creative .text {
+    text-align: center;
+}
+
+.text {
+    color: #60606E;
+    font-family: "Open Sans";
+    font-size: 14px;
+    letter-spacing: normal;
+    line-height: 24px;
+}
+
+.history {
+    width: 100%;
+    padding-top: 125px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.history_text {
+    padding-left: 100px ;
+}
+
+.section_title {
+    position: relative;
+    color: #60606E;
+    font-family: Montserrat;
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.section_title:before {
+    content: "";
+    position: absolute;
+    background-color: #7BEEC7;
+    height: 20px;
+    width: 70px;
+    left: 0;
+    top: 50%;
+    z-index: -1;
+}
+
+
+.button {
+    border: none;
+    color: #fff;
+    background-color: #7beec7;
+    width: 165px;
+    height: 50px;
+    text-transform: uppercase;
+}
+
+.readmore {
+    padding-top: 5%;
+    margin-left: 70%;
+    
+}
